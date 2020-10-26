@@ -22,6 +22,123 @@
     />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Zoli</title>
+    <style>
+      @media screen and (max-width: 570px) {
+        .di2 {
+          font-size: 2.5rem;
+        }
+
+        .j12 {
+          height: 150vh;
+        }
+        .j13 {
+          height: 200vh;
+        }
+        .j14 {
+          height: 120vh;
+        }
+        .mec {
+          height: 170vh;
+        }
+
+        .card1 {
+          height: 60vh;
+          width: 66vh;
+        }
+
+        .im1 {
+          width: 15%;
+          height: 25%;
+        }
+
+        
+
+        .card2 {
+          padding-left: 12%;
+          padding-top: 8%;
+          height: 60vh;
+          width: 88vw;
+        }
+        .nav2 {
+          z-index: 100;
+          width: 70vh;
+        }
+        .btnsk {
+          font-size: 12px;
+          height: 40px;
+        }
+        .edu1 {
+          font-size: 12px; 
+        }
+        .edu2 {
+          font-size: 8px; 
+        }
+        .edu3 {
+          font-size: 15px; 
+        }
+        .edu4 {
+          font-size: 10px; 
+          
+        }
+        .edu5 {
+          font-size: 13px; 
+        }
+        .langr {
+          width: 50px;
+          height: 50px;
+        }
+        .langp {
+          width: 1000%;
+          height: 200%;
+        }
+      }
+      @media screen and (min-width: 571px) {
+        .di2 {
+          font-size: 2.5rem;
+        }
+
+        .j12 {
+          height: 150vh;
+          
+        }
+        .btnsk {
+          font-size: 12px; 
+        }
+        
+      }
+      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      @media screen and (min-width: 768px) {
+        .di2 {
+          font-size: 4rem;
+        }
+        .j12 {
+          height: 100vh;
+        }
+        .btnsk {
+          font-size: 13px; 
+        }
+      }
+
+      /* Large devices (desktops, 992px and up) */
+      @media (min-width: 992px) {
+        .display-2 {
+          font-size: 6rem;
+        } /*1rem = 16px*/
+        .btnsk {
+          font-size: 15px; 
+        }
+      }
+
+      /* Extra large devices (large desktops, 1200px and up) */
+      @media (min-width: 1200px) {
+        .display-2 {
+          font-size: 6rem;
+        } /*1rem = 16px*/
+        .btnsk {
+          font-size: 17px; 
+        }
+      }
+    </style>
   </head>
   <body class="mb-0 pb-0">
    
@@ -126,20 +243,21 @@
         </div>
       </div>
     </div>
+
     <div
       id="home"
       class="jumbotron jumbotron-fluid jumbo1 mb-0 pb-0 bg-secondary bg"
     >
       <div class="container mb-0 pb-0">
         <div class="row">
-          <div class="col">
+          <div class="col-6 col-sm-6">
             <h2
-              class="display-2 pt-5 text-center animate__animated animate__fadeInDown"
+              class="di2 pt-2 text-center animate__animated animate__fadeInDown"
             >
               Hi, I am Zoltan
             </h2>
             <h2
-              class="display-2 text-center animate__animated animate__bounceInRight animate__delay-2s"
+              class="di2 text-center animate__animated animate__bounceInRight animate__delay-2s"
             >
               A
             </h2>
@@ -147,7 +265,7 @@
               class="row animate__animated animate__fadeInUp animate__delay-2s"
             >
               <div
-                class="btn-group w-100"
+                class="btn-group w-100 h-75"
                 role="group"
                 aria-label="Button group with nested dropdown"
               >
@@ -208,10 +326,10 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="mx-auto col-lg-8 col-md-6 mb-8 mb-lg-4">
+          <div class="col-6 col-sm-6">
+            <div class="ml-5 pl-2 col-lg-8 col-md-6 mb-8 mb-lg-4 mb-2 pb-3">
               <img
-                class="img-fluid bigpic animate__animated animate__fadeInUp"
+                class="mx-auto img-fluid bigpic animate__animated animate__fadeInUp"
                 src="images/cvpic.jpg"
                 alt="cvpics"
               />
@@ -222,17 +340,17 @@
     </div>
     <div
       id="aboutme"
-      class="jumbotron jumbotron-fluid jumbo1 bg-primary mt-0 mb-0 pt-4"
+      class="jumbotron jumbotron-fluid j12 bg-primary mb-0 pb-4 mt-0 pt-3"
     >
-      <div class="container pl-2 ml-2 w-100 mt-0">
-        <div class="row infocard">
-          <div class="col-3">
+      <div class="container pl-2 ml-2   mt-0 mb-5 pb-5 mec">
+        <div class="row  pb-2 w-100 mb-2 pb-2">
+          <div class="col-sm-4 infocard mb-2 pb-2 ">
             <div
-              class="card ml-4 pb-0 shadow p-3 mb-5 bg-white rounded"
-              style="width: 18rem"
+              class="card card1 ml-4 pb-0 w-100 shadow pt-1 mb-1 bg-white rounded"
+              
             >
               <img
-                class="card-img-top rounded-circle mx-auto w-25"
+                class="card-img-top im1 rounded-circle mx-auto w-25"
                 src="images/cvpic.jpg"
                 alt="Card image cap"
               />
@@ -240,7 +358,7 @@
                 <h5 class="card-title text-center pt-1 pb-1">
                   Zoltan Sebestyen
                 </h5>
-                <p class="card-text text-center pt-1 pb-1">
+                <p class="card-text text-center pt-0 pb-0">
                   <svg
                     width="16"
                     height="16"
@@ -259,7 +377,7 @@
                 </p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item text-center pt-1 pb-1">
+                <li class="list-group-item text-center pt-0 pb-0">
                   <svg
                     width="16"
                     height="16"
@@ -283,7 +401,7 @@
 
                   (954) 226-6554
                 </li>
-                <li class="list-group-item text-center pt-2 pb-2">
+                <li class="list-group-item text-center pt-0 pb-0">
                   <svg
                     width="16"
                     height="16"
@@ -300,7 +418,7 @@
                   </svg>
                   sebizoli@gmail.com
                 </li>
-                <li class="list-group-item text-center pt-2 pb-2">
+                <li class="list-group-item text-center pt-2 pb-0">
                   <svg
                     width="16"
                     height="16"
@@ -325,12 +443,12 @@
                   </svg>
                   Born July 31, 1974
                 </li>
-                <li class="list-group-item text-center pt-1 pb-1">Married</li>
-                <li class="list-group-item text-center pt-1 pb-1">
+                <li class="list-group-item text-center pt-0 pb-0">Married</li>
+                <li class="list-group-item text-center pt-0 pb-0">
                   Have a Daughter(18)
                 </li>
                 <li class="list-group-item text-center pt-2 pb-2">
-                  <div class="row w-100 mb-2">
+                  <div class="row flags1 w-100 mb-2">
                     <div class="col pl-0">
                       <p class="text-center mt-0 mb-0">Nationalities:</p>
                     </div>
@@ -341,7 +459,7 @@
                       title="USA"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-100"
+                        class="img-fluid rounded-circle text-center w-50"
                         src="images/usaicon1.jpg"
                         alt="cvpics"
                       />
@@ -353,7 +471,7 @@
                       title="Hungary"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-100 hunpic"
+                        class="img-fluid rounded-circle text-center w-50 hunpic"
                         src="images/hunicon1.jpg"
                         alt="hunpics"
                       />
@@ -372,7 +490,7 @@
                       title="Snooker"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-75 snookerpics"
+                        class="img-fluid rounded-circle text-center w-50 snookerpics"
                         src="images/snooker.jpg"
                         alt="snookerpics"
                       />
@@ -384,7 +502,7 @@
                       title="Soccer"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-75 soccerpics"
+                        class="img-fluid rounded-circle text-center w-50 soccerpics"
                         src="images/soccer.jpg"
                         alt="soccerpics"
                       />
@@ -396,7 +514,7 @@
                       title="Table Tennis"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-75 ppongpics"
+                        class="img-fluid rounded-circle text-center w-50 ppongpics"
                         src="images/pingpong.jpg"
                         alt="ppongpics"
                       />
@@ -408,7 +526,7 @@
                       title="Cruise"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-75 cruisepics"
+                        class="img-fluid rounded-circle text-center w-50 cruisepics"
                         src="images/cruise.jpg"
                         alt="cruisepics"
                       />
@@ -418,49 +536,19 @@
               </ul>
             </div>
           </div>
-          <div class="col-1"></div>
-          <div class="col-8 mr-0 pr-1 mb-0">
-            <div class="row w-100 snav pt-0 pb-0 mb-0">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-                <a
-                  class="btn btn-outline-secondary"
-                  onclick="btnskill();"
-                  >Skills</button
-                >
-                <a
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNavAltMarkup"
-                  aria-controls="navbarNavAltMarkup"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a
-                      class="btn btn-outline-danger text-dander  ml-3 "
-                      onclick="btncons();"
-                      >Software Consultant</a
-                    >
-                    <a
-                      class="btn btn-outline-warning text-warning ml-3 mr-3"
-                      onclick="btndev();"
-                      >Developer</a
-                    >
-                    <a
-                      class="btn btn-outline-success text-success"
-                      onclick="btnanal();"
-                      >Data Analyst</a
-                    >
-                  </div>
-                </div>
-              </nav>
+          <div class="col-sm-1 ">
+          </div>
+          <div class="col-sm-7 card2  mr-0 pr-1 mb-2 pb-4">
+            <div class="row w-100 snav pt-0 pb-2 mb-4">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btnsk btn-outline-secondary active" onclick="btnskill();">Skills</button>
+                <button type="button" class="btn btnsk btn-danger ml-2 mr-2" onclick="btncons();">Software Consultant</button>
+                <button type="button" class="btn btnsk btn-warning" onclick="btndev();">Developer</button>
+                <button type="button" class="btn btnsk btn-success ml-2" onclick="btnanal();">Data Analyst</button>
+              </div>
             </div>
-            <div class="row w-100 bg-light mt-2 shead">
-              <div id="skillh" class="w-100 h-100 bg-secondary text-light">
+            <div class="row w-100 bg-light mt-2 shead mb-2 pb-2">
+              <div id="skillh" class="w-100  bg-secondary text-light">
                 <p
                   class="text-justify skillhead pl-3 pr-3 animate__animated animate__fadeInUp"
                 >
@@ -1043,13 +1131,13 @@
                 <div class="row w-100">
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100 text-dark"><p>HTML5</p></div>
-                    <div class="col w-100">
-                        <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
+                    <div class="col-sm-4 w-100 text-dark"><p>HTML5</p></div>
+                    <div class="col-sm-4 w-100">
+                        <img class=" img-fluid  tect-center animate__animated animate__bounceInRight"
                         src="./images/html5.png"
                         alt="HTML5"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">5+</div>
                       <div class="col"></div>
                     </div>
@@ -1058,13 +1146,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>Python</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>Python</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/python.png"
                         alt="HTML5"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">2+</div>
                       <div class="col"></div>
                     </div>
@@ -1073,13 +1161,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>React</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>React</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/react.png"
                         alt="react"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">2+</div>
                       <div class="col"></div>
                     </div>
@@ -1090,13 +1178,13 @@
                 <div class="row w-100">
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100 text-dark"><p>CSS3</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100 text-dark"><p>CSS3</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/css3.png"
                         alt="CSS3"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">3+</div>
                       <div class="col"></div>
                     </div>
@@ -1105,13 +1193,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>JQuery</p></div>
-                    <div class="col w-100 h-50">
+                    <div class="col-sm-4 w-100  text-dark"><p>JQuery</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 h-75 tect-center animate__animated animate__bounceInRight"
                         src="./images/jquery.jpg"
                         alt="jquery"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 yearjq text-center">3+</div>
                       <div class="col"></div>
                     </div>
@@ -1120,13 +1208,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>Nodejs</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>Nodejs</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/nodejs.png"
                         alt="NodeJs"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">2+</div>
                       <div class="col"></div>
                     </div>
@@ -1137,13 +1225,13 @@
                 <div class="row w-100">
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100 text-dark"><p>JS</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100 text-dark"><p>JS</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/js.png"
                         alt="JS"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">3+</div>
                       <div class="col"></div>
                     </div>
@@ -1152,13 +1240,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>C#</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>C#</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/csharp.png"
                         alt="HTML5Csharp"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">1+</div>
                       <div class="col"></div>
                     </div>
@@ -1167,13 +1255,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>.Net</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>.Net</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/dotnet.png"
                         alt="dotnet"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">1+</div>
                       <div class="col"></div>
                     </div>
@@ -1184,13 +1272,13 @@
                 <div class="row w-100">
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100 text-dark"><p>PHP</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100 text-dark"><p>PHP</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/php.png"
                         alt="PHP"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">2+</div>
                       <div class="col"></div>
                     </div>
@@ -1199,13 +1287,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>Delphi7</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>Delphi7</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/delphi7.jpg"
                         alt="Delphi7"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">3+</div>
                       <div class="col"></div>
                     </div>
@@ -1214,13 +1302,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>MYSQL</p></div>
-                    <div class="col w-100">
-                        <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
+                    <div class="col-sm-4 w-100  text-dark"><p>MYSQL</p></div>
+                    <div class="col-sm-4 w-100">
+                        <img class=" img-fluid w-75 tect-center animate__animated animate__bounceInRight"
                         src="./images/mysql.png"
                         alt="MYSQL"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">5+</div>
                       <div class="col"></div>
                     </div>
@@ -1231,13 +1319,13 @@
                 <div class="row w-100">
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100 text-dark"><p>Angular</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100 text-dark"><p>Angular</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/angular.png"
                         alt="Angular"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">3+</div>
                       <div class="col"></div>
                     </div>
@@ -1246,13 +1334,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>Postgresql</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>Postgresql</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/postgresql.png"
                         alt="Postgresql"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">5+</div>
                       <div class="col"></div>
                     </div>
@@ -1261,13 +1349,13 @@
                   </div>
                   <div class="col">
                    <div class="row">
-                    <div class="col w-100  text-dark"><p>SQLite</p></div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100  text-dark"><p>SQLite</p></div>
+                    <div class="col-sm-4 w-100">
                         <img class=" img-fluid w-100 tect-center animate__animated animate__bounceInRight"
                         src="./images/sqlite.png"
                         alt="Sqlite"/>
                     </div>
-                    <div class="col w-100">
+                    <div class="col-sm-4 w-100">
                       <div class="col w-75 h-75 year text-center">5+</div>
                       <div class="col"></div>
                     </div>
@@ -1341,7 +1429,7 @@
         </div>
       </div>
     </div>
-    <div id="work" class="jumbotron jumbotron-fluid jumbo1 bg-light mt-0 mb-4 pt-3 pb-5 ">
+    <div id="work" class="jumbotron jumbotron-fluid j12 bg-light mt-0 mb-4 pt-3 pb-5 ">
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2 ">Work Experience</h2>
       </div>
@@ -1468,7 +1556,7 @@
     </div>
     <div
       id="education"
-      class="jumbotron jumbotron-fluid jumbo1 bg-primary mt-0 mb-0 pt-1"
+      class="jumbotron jumbotron-fluid j14 bg-primary mt-0 mb-0 pt-1"
     >
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2">Education</h2>
@@ -1489,20 +1577,20 @@
               <div class="card-body">
                 <h5 class="card-title">
                   <div class="row w-100">
-                    <div class="col-9">
+                    <div class="col-9 edu3">
                       University of Economy Szolnok, Hungary — MBA Bachelor
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 edu2">
                       1993 - 1997
                     </div>
                   </div>
                 </h5>
                 <h6 class="card-subtitle mb-2 text-muted">
                   <div class="row w-100">
-                    <div class="col">
+                    <div class="col  ">
                       Bachelor Degree Economy
                     </div>
-                    <div class="col">
+                    <div class="col ">
                       Economist Diploma
                     </div>
                   </div>
@@ -1514,10 +1602,10 @@
               <div class="card-body">
                 <h5 class="card-title">
                   <div class="row w-100">
-                    <div class="col-9">
+                    <div class="col-9  edu3">
                       Law University, Pecs, Hungary — Economist Law Degree
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 edu2">
                       1999 - 2002
                     </div>
                   </div>
@@ -1532,10 +1620,10 @@
               <div class="card-body">
                 <h5 class="card-title">
                   <div class="row w-100">
-                    <div class="col-9">
+                    <div class="col-9 edu3">
                     High School of Economy Szeged, Hungary
                   </div>
-                  <div class="col-3">
+                  <div class="col-3 edu2">
                     1984 - 1988
                   </div>
                   </div>
@@ -1561,7 +1649,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - Build Responsive Real World Websites
                   </div>
                 </h5>
@@ -1570,7 +1658,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - Advanced CSS and Sass, Flexbox, Grid, Animation
                   </div>
                 </h5>
@@ -1579,7 +1667,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - The Complete Python Course
                   </div>
                 </h5>
@@ -1588,7 +1676,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - The Complete Node.js Course
                   </div>
                 </h5>
@@ -1597,7 +1685,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - The Complete React Native Part 1, 2
                   </div>
                 </h5>
@@ -1606,7 +1694,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - C# Basic, Intermediate, Advanced
                   </div>
                 </h5>
@@ -1615,7 +1703,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - Affiliate Marketing and SEO
                   </div>
                 </h5>
@@ -1624,7 +1712,7 @@
             <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
                     Udemy - Blog Marketing A-Z
                   </div>
                 </h5>
@@ -1637,18 +1725,18 @@
               <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
                   <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
-                    <div class="row w-100  bg-light">
-                      <div class="col-3 h-25">  
+                    <div class="row w-100 bg-light">
+                      <div class="col-sm-2 h-25">  
                         <img
-                        class="img-fluid text-center w-25"
+                        class="img-fluid text-center w-50 "
                         src="images/USA.png"
                         alt="cvpics"
                         />
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-6 edu3">
                         English
                       </div>
-                      <div class="col-3">
+                      <div class="col-sm-4 edu4">
                         Fluent
                       </div>
                     </div>
@@ -1662,17 +1750,17 @@
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
                   <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
                     <div class="row w-100  bg-light">
-                      <div class="col-3 h-25">  
+                      <div class="col-sm-2 h-25">  
                         <img
-                        class="img-fluid text-center w-25"
+                        class="img-fluid text-center w-50"
                         src="images/Hungary-3.png"
                         alt="cvpics"
                         />
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-6 edu5">
                         Hungarian
                       </div>
-                      <div class="col-3">
+                      <div class="col-sm-4 edu4">
                         Fluent
                       </div>
                     </div>
@@ -1686,17 +1774,17 @@
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
                   <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
                     <div class="row w-100  bg-light">
-                      <div class="col-3 h-25">  
+                      <div class="col-sm-2 h-25">  
                         <img
-                        class="img-fluid text-center w-25"
+                        class="img-fluid text-center w-50"
                         src="images/Germany.png"
                         alt="cvpics"
                         />
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-6 edu3">
                         German
                       </div>
-                      <div class="col-3">
+                      <div class="col-sm-4 edu4">
                         Basic
                       </div>
                     </div>
@@ -1710,17 +1798,17 @@
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
                   <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
                     <div class="row w-100  bg-light">
-                      <div class="col-3 h-25">  
+                      <div class="col-sm-2 h-25">  
                         <img
-                        class="img-fluid text-center w-25"
+                        class="img-fluid text-center w-50"
                         src="images/Russia.png"
                         alt="cvpics"
                         />
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-6 edu3">
                         Russian
                       </div>
-                      <div class="col-3">
+                      <div class="col-sm-4 edu4">
                         Basic
                       </div>
                     </div>
@@ -1734,17 +1822,17 @@
                 <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
                   <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
                     <div class="row w-100  bg-light">
-                      <div class="col-3 h-25">  
+                      <div class="col-sm-2 h-25">  
                         <img
-                        class="img-fluid text-center w-25"
+                        class="img-fluid text-center w-50"
                         src="images/Spain.png"
                         alt="cvpics"
                         />
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-6 edu3">
                         Spanish
                       </div>
-                      <div class="col-3">
+                      <div class="col-sm-4 edu4">
                         Basic
                       </div>
                     </div>
@@ -1760,15 +1848,15 @@
               <div class="card-body w-100">
                 <h5 class="card-title w-100">
                   <div class="row w-100">
-                    <div class="col-9">
+                    <div class="col-sm-9 edu3">
                       Six Sigma White Belt Certification
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3 edu3">
                       Online Course
                     </div>
                     </div>
                 </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
+                <h6 class="card-subtitle mb-2 text-muted ">
                     Management and Strategy Institute  
                 </h6>
               </div>
@@ -1776,7 +1864,7 @@
 
             <div class="card w-100 mt-2  border border-secondary cshadow" >
               <div class="card-body w-100">
-                <h5 class="card-title w-100">
+                <h5 class="card-title w-100 edu3">
                       Certified Stock Exchange System Administrator
                 </h5>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -1787,7 +1875,7 @@
 
             <div class="card w-100 mt-2  border border-secondary cshadow" >
               <div class="card-body w-100">
-                <h5 class="card-title w-100">
+                <h5 class="card-title w-100 edu3">
                       Certified Stock Exchange Expert
                 </h5>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -1798,7 +1886,7 @@
 
             <div class="card w-100 mt-2  border border-secondary cshadow" >
               <div class="card-body w-100">
-                <h5 class="card-title w-100">
+                <h5 class="card-title w-100 edu3">
                       Certified Financial Advisor
                 </h5>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -1814,12 +1902,12 @@
     </div>
     <div
       id="projects"
-      class="jumbotron jumbotron-fluid jumbo1 bg-light mt-0 mb-4 pt-1 mr-5 mb-0 project pt-0 pb-5"
+      class="jumbotron jumbotron-fluid j13 bg-light mt-0 mb-4 pt-1 mr-0 mb-0 project pt-0 pb-5"
     >
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2">Projects</h2>
       </div>
-      <div class="row w-100 ml-3">
+      <div class="row w-100 ml-3 pr-5">
         <div class="col">
           <div class="card w-100 mt-2 ml-2 border border-secondary cshadow" >
               <div class="card-body w-100">
@@ -1887,7 +1975,7 @@
             </div>
         </div>
       </div>
-      <div class="row w-100 ml-3">
+      <div class="row w-100 ml-3 pr-5">
         <div class="col">
           <div class="card w-100 mt-2 ml-2 mr-2  border border-secondary cshadow" >
               <div class="card-body w-100">
