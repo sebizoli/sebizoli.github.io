@@ -5,9 +5,12 @@
 }
 
 .jumbo1 {
-  height: 90vh;
+  height: 75vh;
 }
 
+.jumbo12 {
+  height: 75vh;
+}
 .jumbo2 {
   height: 70vh;
 }
@@ -87,16 +90,16 @@
 }
 
 .sbody {
-  height: 45%;
+  height: 40vh;
   overflow: auto;
 }
 
 .snav {
-  height: 10%;
+  height: 5vh;
 }
 
 .shead {
-  height: 25%;
+  height: 20vh;
   overflow-y: auto;
 }
 
@@ -157,7 +160,12 @@ hr.style1 {
 }
 
 .navb {
-  height: 13%;
+  height: 13vh;
+  width: 100%;
+}
+
+.navbar {
+  height: 12vh;
   width: 100%;
 }
 
@@ -176,4 +184,25 @@ hr.style1 {
 .navbpic {
   height: 10%;
   width: 12%;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+Display 1 (6rem = 90px)
+Display 2 (5.5rem = 82.5px)
+Display 3 (4.5rem = 67.5px)
+Display 4 (3.5rem = 52.5px)
+h1 (2.5rem = 40px)
+h2 (2rem = 32px)
+h3 (1.75rem = 28px)
+h4 (1.5rem = 24px)
+h5 (1.25rem = 20px)
+h6 (1rem = 16px)
+p (1rem = 16px)
+*/
+/* Small devices (landscape phones, 544px and up) */
+
+.mec {
+  height: 60vh;
 }
