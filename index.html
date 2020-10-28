@@ -48,7 +48,16 @@
 
         .card1 {
           height: 60vh;
-          width: 66vh;
+          width: 66vw;
+        }
+
+        .infocard {
+          width: 76vw;
+        }
+
+
+        .shead {
+          width: 96vw;
         }
 
         .im1 {
@@ -59,10 +68,10 @@
         
 
         .card2 {
-          padding-left: 12%;
+          padding-left: 7%;
           padding-top: 8%;
           height: 60vh;
-          width: 88vw;
+          width: 100vw;
         }
         .nav2 {
           z-index: 100;
@@ -343,13 +352,14 @@
         </div>
       </div>
     </div>
+
     <div
       id="aboutme"
       class="jumbotron jumbotron-fluid j12 bg-primary mb-0 pb-4 mt-0 pt-3"
     >
-      <div class="container pl-2 ml-2   mt-0 mb-5 pb-5 mec">
+      <div class="container pl-2 ml-2   mt-0 mb-5 pb-5 ">
         <div class="row  pb-2 w-100 mb-2 pb-2">
-          <div class="col-sm-4 infocard mb-2 pb-2 ">
+          <div class="col-4 col-xs-4 col-sm-4 infocard mb-2 pb-2 ">
             <div
               class="card card1 ml-4 pb-0 w-100 shadow pt-1 mb-1 bg-white rounded"
               
@@ -360,9 +370,9 @@
                 alt="Card image cap"
               />
               <div class="card-body pb-0">
-                <h5 class="card-title text-center pt-1 pb-1">
+                <h6 class="card-title text-center pt-0 pb-1">
                   Zoltan Sebestyen
-                </h5>
+                </h6>
                 <p class="card-text text-center pt-0 pb-0">
                   <svg
                     width="16"
@@ -541,15 +551,22 @@
               </ul>
             </div>
           </div>
-          <div class="col-sm-1 ">
+          <div class="col-1 col-xs-1 col-sm-1 ">
           </div>
-          <div class="col-sm-7 card2  mr-0 pr-1 mb-2 pb-4">
-            <div class="row w-100 snav pt-0 pb-2 mb-4">
+          <div class="col-7 col-xs-7 col-sm-7 card2  mr-0 pr-1 mb-2 pb-4">
+            <div class="row w-100 snav pt-0 pl-0 pb-2 mb-4">
               <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btnsk btn-outline-secondary active" onclick="btnskill();">Skills</button>
-                <button type="button" class="btn btnsk btn-danger ml-2 mr-2" onclick="btncons();">Software Consultant</button>
-                <button type="button" class="btn btnsk btn-warning" onclick="btndev();">Developer</button>
-                <button type="button" class="btn btnsk btn-success ml-2" onclick="btnanal();">Data Analyst</button>
+                
+                  <button type="button" class="btn btnsk btn-outline-secondary active" onclick="btnskill();">Skills</button>
+                
+                
+                  <button type="button" class="btn btnsk btn-danger" onclick="btncons();">Consultant</button>
+                
+                
+                  <button type="button" class="btn btnsk btn-warning" onclick="btndev();">Developer</button>
+                
+                  <button type="button" class="btn btnsk btn-success" onclick="btnanal();">Data Analyst</button>
+                
               </div>
             </div>
             <div class="row w-100 bg-light mt-2 shead mb-2 pb-2">
@@ -1434,10 +1451,11 @@
         </div>
       </div>
     </div>
+
     <div id="work" class="jumbotron jumbotron-fluid jwork bg-light mt-0 mb-4 pt-3 pb-5 ">
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2 ">Work Experience</h2>
-      </div>
+      
       
       <div id="accordion" class="w-100 border pl-5 pr-5 ">
         <div class="card ml-0 mr-0 pl-0 mr-0 pr-0 pr-0 bg-primary text-white">
@@ -1557,15 +1575,16 @@
           </div>
         </div>
       </div>
-
+      </div>
     </div>
+
     <div
       id="education"
       class="jumbotron jumbotron-fluid j14 bg-primary mt-0 mb-0 pt-1"
     >
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2">Education</h2>
-      </div>
+      
       <div class="row h-100 w-100 pb-1">
       <div class="col-4 col-sm-4">
         <div class="list-group" id="list-tab" role="tablist">
@@ -1853,13 +1872,11 @@
               <div class="card-body w-100">
                 <h5 class="card-title w-100">
                   <div class="row w-100">
-                    <div class="col-sm-9 edu3">
+                    <div class="col-sm edu3">
                       Six Sigma White Belt Certification
                     </div>
-                    <div class="col-sm-3 edu3">
-                      Online Course
-                    </div>
-                    </div>
+                   
+                  </div>
                 </h5>
                 <h6 class="card-subtitle mb-2 text-muted ">
                     Management and Strategy Institute  
@@ -1905,126 +1922,130 @@
       </div>
     </div>
     </div>
+    </div>
+
+
     <div
       id="projects"
       class="jumbotron jumbotron-fluid j13 bg-light mt-0 mb-4 pt-1 mr-0 mb-0 project pt-0 pb-5"
     >
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2">Projects</h2>
-      </div>
-      <div class="row w-100 ml-3 pr-5">
-        <div class="col">
-          <div class="card w-100 mt-2 ml-2 border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h4 class="card-title w-100">
-                    ERP projects
-                </h4>
-                <h5 class="card-subtitle mb-2 text-muted ">
-                    <strong>IconErp  - Own ERP System</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted ">
-                    General ERP
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>IconMobile  - Own Mobile ERP System</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    For Mobile Sellers with data-connection to the IconERP
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>ADP - Autoline/Kerridge ERP</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    ERP for Car dealerships
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>Valet ERP</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    ERP for Valet Parking
-                </h6>
+      
+        <div class="row w-100 ml-3 pr-5">
+          <div class="col col-sm-6">
+            <div class="card w-100 mt-2 ml-2 border border-secondary cshadow" >
+                <div class="card-body w-100">
+                  <h4 class="card-title w-100">
+                      ERP projects
+                  </h4>
+                  <h5 class="card-subtitle mb-2 text-muted ">
+                      <strong>IconErp  - Own ERP System</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted ">
+                      General ERP
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>IconMobile  - Own Mobile ERP System</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      For Mobile Sellers with data-connection to the IconERP
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>ADP - Autoline/Kerridge ERP</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      ERP for Car dealerships
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>Valet ERP</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      ERP for Valet Parking
+                  </h6>
+                </div>
               </div>
-            </div>
+          </div>
+          <div class="col col-sm-6">
+              <div class="card w-100 mt-2 ml-2 mr-2  border border-secondary cshadow" >
+                <div class="card-body w-100">
+                  <h4 class="card-title w-100">
+                      Web Development
+                  </h4>
+                  <h5 class="card-subtitle mb-2 text-muted ">
+                      <strong>Random Lotto</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted ">
+                      Random generated drawing with fixed numbers and number-skipping option...
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>Natours</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      Webdesign
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>Natours2</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      Webdesign
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>Dice game</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      Web application
+                  </h6>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="col">
+        <div class="row w-100 ml-3 pr-5">
+          <div class="col col-sm-6">
             <div class="card w-100 mt-2 ml-2 mr-2  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h4 class="card-title w-100">
-                    Web Development
-                </h4>
-                <h5 class="card-subtitle mb-2 text-muted ">
-                    <strong>Random Lotto</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted ">
-                    Random generated drawing with fixed numbers and number-skipping option...
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>Natours</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Webdesign
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>Natours2</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Webdesign
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>Dice game</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Web application
-                </h6>
+                <div class="card-body w-100">
+                  <h4 class="card-title w-100">
+                      Project Management
+                  </h4>
+                  <h5 class="card-subtitle mb-2 text-muted ">
+                      <strong>ERP Project Management</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted ">
+                      Exhibitions, Prezentations, Implementations, Training, CSR
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>Website Project Management</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      Webdesign, Implementation, SEO, Blog, Ads, Affiliate Marketing
+                  </h6>
+                  
+                </div>
               </div>
-            </div>
-        </div>
-      </div>
-      <div class="row w-100 ml-3 pr-5">
-        <div class="col">
-          <div class="card w-100 mt-2 ml-2 mr-2  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h4 class="card-title w-100">
-                    Project Management
-                </h4>
-                <h5 class="card-subtitle mb-2 text-muted ">
-                    <strong>ERP Project Management</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted ">
-                    Exhibitions, Prezentations, Implementations, Training, CSR
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>Website Project Management</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Webdesign, Implementation, SEO, Blog, Ads, Affiliate Marketing
-                </h6>
-                
+          </div>
+          <div class="col col-sm-6">
+            
+            <div class="card w-100 mt-2 ml-2 mr-2  border border-secondary cshadow" >
+                <div class="card-body w-100">
+                  <h4 class="card-title w-100">
+                      Applications
+                  </h4>
+                  <h5 class="card-subtitle mb-2 text-muted ">
+                      <strong>Web application</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted ">
+                      Dice Game
+                  </h6>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                      <strong>Mobile App for Android and IOS</strong>
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                      Vidly
+                  </h6>
+                  
+                </div>
               </div>
-            </div>
-        </div>
-        <div class="col">
-          
-          <div class="card w-100 mt-2 ml-2 mr-2  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h4 class="card-title w-100">
-                    Applications
-                </h4>
-                <h5 class="card-subtitle mb-2 text-muted ">
-                    <strong>Web application</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted ">
-                    Dice Game
-                </h6>
-                <h5 class="card-subtitle mb-2 text-muted">
-                    <strong>Mobile App for Android and IOS</strong>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Vidly
-                </h6>
-                
-              </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
