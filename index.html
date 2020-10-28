@@ -32,7 +32,7 @@
           height: 220vh; 
         }
         .jhome {
-          height: 75vh; 
+          height: 85vh; 
         }
         .di2 {
           font-size: 2.5rem;
@@ -80,10 +80,10 @@
           height: 150vh;
         }
         .jwork {
-          height: 165vh;
+          height: 50vh;
         }
         .j13 {
-          height: 200vh;
+          height: 110vh;
         }
         .j14 {
           height: 120vh;
@@ -98,7 +98,8 @@
         }
 
         .infocard {
-          width: 76vw;
+          min-width: 200px;
+          max-width: 33vw;
         }
 
 
@@ -114,10 +115,7 @@
         
 
         .card2 {
-          padding-left: 7%;
-          padding-top: 8%;
-          height: 60vh;
-          width: 100vw;
+          
         }
         .nav2 {
           z-index: 100;
@@ -172,7 +170,19 @@
           font-size: 4rem;
         }
         .j12 {
-          height: 100vh;
+          height: 80vh;
+        }
+        .jwork {
+          height: 55vh;
+        }
+        .j13 {
+          height: 60vh;
+        }
+        .project {
+          min-height: 80vh;
+        }
+        .j14 {
+          height: 50vh;
         }
         .btnsk {
           font-size: 13px; 
@@ -181,21 +191,49 @@
 
       /* Large devices (desktops, 992px and up) */
       @media (min-width: 992px) {
-        .display-2 {
-          font-size: 6rem;
-        } /*1rem = 16px*/
+        .di2 {
+          font-size: 4rem;
+        }
+        .j12 {
+          height: 80vh;
+        }
+        .jwork {
+          height: 40vh;
+        }
+        .j13 {
+          height: 65vh;
+        }
+        .project {
+          min-height: 60vh;
+        }
+        .j14 {
+          height: 40vh;
+        }
         .btnsk {
-          font-size: 15px; 
+          font-size: 13px; 
         }
       }
 
       /* Extra large devices (large desktops, 1200px and up) */
       @media (min-width: 1200px) {
-        .display-2 {
-          font-size: 6rem;
-        } /*1rem = 16px*/
+        .di2 {
+          font-size: 4rem;
+        }
+        .j12 {
+          height: 80vh;
+        }
+        .jwork {
+          height: 40vh;
+        }
+        .j13 {
+          height: 65vh;
+        }
+
+        .j14 {
+          height: 40vh;
+        }
         .btnsk {
-          font-size: 17px; 
+          font-size: 13px; 
         }
       }
     </style>
@@ -387,7 +425,7 @@
             </div>
           </div>
           <div class="col-6 col-sm-6">
-            <div class="ml-5 pl-2 col-lg-8 col-md-6 mb-8 mb-lg-4 mb-2 pb-3">
+            <div class="ml-5 pl-2  mb-8 mb-2 pb-3">
               <img
                 class="mx-auto img-fluid bigpic animate__animated animate__fadeInUp"
                 src="images/cvpic.jpg"
@@ -1630,343 +1668,339 @@
       <div class="container w-100">
         <h2 class="w-100 ml-3 mt-2 mb-2 pb-2">Education</h2>
       
-      <div class="row h-100 w-100 pb-1">
-      <div class="col-4 col-sm-4">
-        <div class="list-group edulist" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active  text-dark" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Schools</a>
-          <a class="list-group-item list-group-item-action text-dark" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Courses</a>
-          <a class="list-group-item list-group-item-action text-dark" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Languages</a>
-          <a class="list-group-item list-group-item-action text-dark" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Licences</a>
+        <div class="row h-100 w-100 pb-1">
+          <div class="col-4 col-sm-4">
+            <div class="list-group edulist" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active  text-dark" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Schools</a>
+              <a class="list-group-item list-group-item-action text-dark" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Courses</a>
+              <a class="list-group-item list-group-item-action text-dark" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Languages</a>
+              <a class="list-group-item list-group-item-action text-dark" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Licences</a>
+            </div>
+          </div>
+          <div class="col-8 col-sm-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active mr-5" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <div class="card w-100 mr-5 border border-secondary cshadow" >
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <div class="row w-100">
+                        <div class="col-9 col-sm-9 edu3 etext">
+                          University of Economy Szolnok, Hungary — MBA Bachelor
+                        </div>
+                        <div class="col-3 col-sm-3 edu2 eyear"> 
+                          1993 - 1997
+                        </div>
+                      </div>
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      <div class="row w-100">
+                        <div class="col  ">
+                          Bachelor Degree Economy
+                        </div>
+                        <div class="col ">
+                          Economist Diploma
+                        </div>
+                      </div>
+                    </h6>
+                    
+                  </div>
+                </div>
+                <div class="card w-100 mr-5 mt-3 mb-3 border border-secondary cshadow" >
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <div class="row w-100">
+                        <div class="col-9 col-sm-9  edu3">
+                          Law University, Pecs, Hungary — Economist Law Degree
+                        </div>
+                        <div class="col-3 col-sm-3 edu2">
+                          1999 - 2002
+                        </div>
+                      </div>
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">   
+                          Bachelor Degree Economist Law  
+                    </h6>
+                    
+                  </div>
+                </div>
+                <div class="card w-100  border border-secondary cshadow" >
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <div class="row w-100">
+                        <div class="col-9 col-sm-9 edu3">
+                        High School of Economy Szeged, Hungary
+                      </div>
+                      <div class="col-3 col-sm-3 edu2">
+                        1984 - 1988
+                      </div>
+                      </div>
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                      <div class="row w-100">
+                        <div class="col">
+                          High School Diploma
+                        </div>
+                        <div class="col">
+                          Economist and Accounting Diploma
+                        </div>
+                      </div>
+                    </h6>
+                    
+                  </div>
+                </div> 
+              </div>
+
+              <div class="tab-pane fade mr-5" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - Build Responsive Real World Websites
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - Advanced CSS and Sass, Flexbox, Grid, Animation
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - The Complete Python Course
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - The Complete Node.js Course
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - The Complete React Native Part 1, 2
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - C# Basic, Intermediate, Advanced
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - Affiliate Marketing and SEO
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
+                        Udemy - Blog Marketing A-Z
+                      </div>
+                    </h5>
+                  </div>
+                </div> 
+              </div>
+
+              <div class="tab-pane fade mr-5" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                        <div class="row w-100 bg-light">
+                          <div class="col-sm-2 h-25">  
+                            <img
+                            class="img-fluid text-center w-50 "
+                            src="images/USA.png"
+                            alt="cvpics"
+                            />
+                          </div>
+                          <div class="col-sm-6 edu3">
+                            English
+                          </div>
+                          <div class="col-sm-4 edu4">
+                            Fluent
+                          </div>
+                        </div>
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+                
+                <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                        <div class="row w-100  bg-light">
+                          <div class="col-sm-2 h-25">  
+                            <img
+                            class="img-fluid text-center w-50"
+                            src="images/Hungary-3.png"
+                            alt="cvpics"
+                            />
+                          </div>
+                          <div class="col-sm-6 edu5">
+                            Hungarian
+                          </div>
+                          <div class="col-sm-4 edu4">
+                            Fluent
+                          </div>
+                        </div>
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                        <div class="row w-100  bg-light">
+                          <div class="col-sm-2 h-25">  
+                            <img
+                            class="img-fluid text-center w-50"
+                            src="images/Germany.png"
+                            alt="cvpics"
+                            />
+                          </div>
+                          <div class="col-sm-6 edu3">
+                            German
+                          </div>
+                          <div class="col-sm-4 edu4">
+                            Basic
+                          </div>
+                        </div>
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                        <div class="row w-100  bg-light">
+                          <div class="col-sm-2 h-25">  
+                            <img
+                            class="img-fluid text-center w-50"
+                            src="images/Russia.png"
+                            alt="cvpics"
+                            />
+                          </div>
+                          <div class="col-sm-6 edu3">
+                            Russian
+                          </div>
+                          <div class="col-sm-4 edu4">
+                            Basic
+                          </div>
+                        </div>
+                      </div>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
+                  <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
+                    <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
+                      <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
+                        <div class="row w-100  bg-light">
+                          <div class="col-sm-2 h-25">  
+                            <img
+                            class="img-fluid text-center w-50"
+                            src="images/Spain.png"
+                            alt="cvpics"
+                            />
+                          </div>
+                          <div class="col-sm-6 edu3">
+                            Spanish
+                          </div>
+                          <div class="col-sm-4 edu4">
+                            Basic
+                          </div>
+                        </div>
+                      </div>
+                    </h5>
+                  </div>
+                </div> 
+              </div>
+
+              <div class="tab-pane fade mr-5" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <div class="card w-100  border border-secondary cshadow" >
+                  <div class="card-body w-100">
+                    <h5 class="card-title w-100">
+                      <div class="row w-100">
+                        <div class="col-sm edu3">
+                          Six Sigma White Belt Certification
+                        </div>
+                      </div>
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted ">
+                        Management and Strategy Institute  
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="card w-100 mt-2  border border-secondary cshadow" >
+                  <div class="card-body w-100">
+                    <h5 class="card-title w-100 edu3">
+                          Certified Stock Exchange System Administrator
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Hungarian Bank Association  
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="card w-100 mt-2  border border-secondary cshadow" >
+                  <div class="card-body w-100">
+                    <h5 class="card-title w-100 edu3">
+                          Certified Stock Exchange Expert
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Hungarian Bank Association  
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="card w-100 mt-2  border border-secondary cshadow" >
+                  <div class="card-body w-100">
+                    <h5 class="card-title w-100 edu3">
+                          Certified Financial Advisor
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Hungarian Bank Association  
+                    </h6>
+                  </div>
+                </div> 
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-8 col-sm-8">
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active mr-5" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-            <div class="card w-100 mr-5 border border-secondary cshadow" >
-              <div class="card-body">
-                <h5 class="card-title">
-                  <div class="row w-100">
-                    <div class="col-9 col-sm-9 edu3 etext">
-                      University of Economy Szolnok, Hungary — MBA Bachelor
-                    </div>
-                    <div class="col-3 col-sm-3 edu2 eyear"> 
-                      1993 - 1997
-                    </div>
-                  </div>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                  <div class="row w-100">
-                    <div class="col  ">
-                      Bachelor Degree Economy
-                    </div>
-                    <div class="col ">
-                      Economist Diploma
-                    </div>
-                  </div>
-                </h6>
-                
-              </div>
-            </div>
-            <div class="card w-100 mr-5 mt-3 mb-3 border border-secondary cshadow" >
-              <div class="card-body">
-                <h5 class="card-title">
-                  <div class="row w-100">
-                    <div class="col-9 col-sm-9  edu3">
-                      Law University, Pecs, Hungary — Economist Law Degree
-                    </div>
-                    <div class="col-3 col-sm-3 edu2">
-                      1999 - 2002
-                    </div>
-                  </div>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">   
-                      Bachelor Degree Economist Law  
-                </h6>
-                
-              </div>
-            </div>
-            <div class="card w-100  border border-secondary cshadow" >
-              <div class="card-body">
-                <h5 class="card-title">
-                  <div class="row w-100">
-                    <div class="col-9 col-sm-9 edu3">
-                    High School of Economy Szeged, Hungary
-                  </div>
-                  <div class="col-3 col-sm-3 edu2">
-                    1984 - 1988
-                  </div>
-                  </div>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                  <div class="row w-100">
-                    <div class="col">
-                      High School Diploma
-                    </div>
-                    <div class="col">
-                      Economist and Accounting Diploma
-                    </div>
-                  </div>
-                </h6>
-                
-              </div>
-            </div>
-            
-            
-            
-          </div>
-          <div class="tab-pane fade mr-5" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - Build Responsive Real World Websites
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - Advanced CSS and Sass, Flexbox, Grid, Animation
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - The Complete Python Course
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - The Complete Node.js Course
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - The Complete React Native Part 1, 2
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - C# Basic, Intermediate, Advanced
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - Affiliate Marketing and SEO
-                  </div>
-                </h5>
-              </div>
-            </div>
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0 edu3">
-                    Udemy - Blog Marketing A-Z
-                  </div>
-                </h5>
-              </div>
-            </div>
-            
-          </div>
-          <div class="tab-pane fade mr-5" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-            <div class="card w-100 pt-1 bt-0  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
-                    <div class="row w-100 bg-light">
-                      <div class="col-sm-2 h-25">  
-                        <img
-                        class="img-fluid text-center w-50 "
-                        src="images/USA.png"
-                        alt="cvpics"
-                        />
-                      </div>
-                      <div class="col-sm-6 edu3">
-                        English
-                      </div>
-                      <div class="col-sm-4 edu4">
-                        Fluent
-                      </div>
-                    </div>
-                  </div>
-                </h5>
-              </div>
-            </div>
-            
-            <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
-                    <div class="row w-100  bg-light">
-                      <div class="col-sm-2 h-25">  
-                        <img
-                        class="img-fluid text-center w-50"
-                        src="images/Hungary-3.png"
-                        alt="cvpics"
-                        />
-                      </div>
-                      <div class="col-sm-6 edu5">
-                        Hungarian
-                      </div>
-                      <div class="col-sm-4 edu4">
-                        Fluent
-                      </div>
-                    </div>
-                  </div>
-                </h5>
-              </div>
-            </div>
-
-            <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
-                    <div class="row w-100  bg-light">
-                      <div class="col-sm-2 h-25">  
-                        <img
-                        class="img-fluid text-center w-50"
-                        src="images/Germany.png"
-                        alt="cvpics"
-                        />
-                      </div>
-                      <div class="col-sm-6 edu3">
-                        German
-                      </div>
-                      <div class="col-sm-4 edu4">
-                        Basic
-                      </div>
-                    </div>
-                  </div>
-                </h5>
-              </div>
-            </div>
-
-            <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
-                    <div class="row w-100  bg-light">
-                      <div class="col-sm-2 h-25">  
-                        <img
-                        class="img-fluid text-center w-50"
-                        src="images/Russia.png"
-                        alt="cvpics"
-                        />
-                      </div>
-                      <div class="col-sm-6 edu3">
-                        Russian
-                      </div>
-                      <div class="col-sm-4 edu4">
-                        Basic
-                      </div>
-                    </div>
-                  </div>
-                </h5>
-              </div>
-            </div>
-
-            <div class="card w-100 pt-1 bt-0 mt-3  border border-secondary cshadow" >
-              <div class="card-body pt-0 bt-0 mt-0 mb-0 ">
-                <h5 class="card-title pt-0 bt-0  mt-0 mb-0">
-                  <div class="row w-100 pl-3 pt-2 bt-0  mt-0 mb-0">
-                    <div class="row w-100  bg-light">
-                      <div class="col-sm-2 h-25">  
-                        <img
-                        class="img-fluid text-center w-50"
-                        src="images/Spain.png"
-                        alt="cvpics"
-                        />
-                      </div>
-                      <div class="col-sm-6 edu3">
-                        Spanish
-                      </div>
-                      <div class="col-sm-4 edu4">
-                        Basic
-                      </div>
-                    </div>
-                  </div>
-                </h5>
-              </div>
-            </div>
-
-            
-          </div>
-          <div class="tab-pane fade mr-5" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-            <div class="card w-100  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h5 class="card-title w-100">
-                  <div class="row w-100">
-                    <div class="col-sm edu3">
-                      Six Sigma White Belt Certification
-                    </div>
-                   
-                  </div>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted ">
-                    Management and Strategy Institute  
-                </h6>
-              </div>
-            </div>
-
-            <div class="card w-100 mt-2  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h5 class="card-title w-100 edu3">
-                      Certified Stock Exchange System Administrator
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Hungarian Bank Association  
-                </h6>
-              </div>
-            </div>
-
-            <div class="card w-100 mt-2  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h5 class="card-title w-100 edu3">
-                      Certified Stock Exchange Expert
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Hungarian Bank Association  
-                </h6>
-              </div>
-            </div>
-
-            <div class="card w-100 mt-2  border border-secondary cshadow" >
-              <div class="card-body w-100">
-                <h5 class="card-title w-100 edu3">
-                      Certified Financial Advisor
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Hungarian Bank Association  
-                </h6>
-              </div>
-            </div>
-
-            
-        </div>
-      </div>
-    </div>
-    </div>
     </div>
 
 
