@@ -23,7 +23,37 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Zoli</title>
     <style>
-      @media screen and (max-width: 570px) {
+      @media screen and (min-width: 300px) {
+        
+        .j12 {
+          height: 150vh; 
+        }
+        .j13 {
+          height: 200vh; 
+        }
+        .jhome {
+          height: 100vh; 
+        }
+        .di2 {
+          font-size: 2.5rem;
+        }
+        .infocard {
+          max-width: 100vw;
+        }
+
+        .card2 {
+          max-width: 100vw;
+        }
+
+        .card {
+          min-width: 200px;
+        }
+        .edulist {
+          min-width: 100px;
+        }
+        
+      }
+      @media screen and (min-width: 570px) {
         .di2 {
           font-size: 2.5rem;
         }
@@ -359,7 +389,7 @@
     >
       <div class="container pl-2 ml-2   mt-0 mb-5 pb-5 ">
         <div class="row  pb-2 w-100 mb-2 pb-2">
-          <div class="col-4 col-xs-4 col-sm-4 infocard mb-2 pb-2 ">
+          <div class="infocard col-4 mb-2 pb-2 ">
             <div
               class="card card1 ml-4 pb-0 w-100 shadow pt-1 mb-1 bg-white rounded"
               
@@ -464,11 +494,11 @@
                 </li>
                 <li class="list-group-item text-center pt-2 pb-2">
                   <div class="row flags1 w-100 mb-2">
-                    <div class="col pl-0">
-                      <p class="text-center mt-0 mb-0">Nationalities:</p>
+                    <div class="col-4 col-sm-4 pl-0">
+                      <p class="text-center mt-0 mb-0">Nation:</p>
                     </div>
                     <div
-                      class="col"
+                      class="col-4 col-sm-4
                       data-toggle="tooltip"
                       data-placement="top"
                       title="USA"
@@ -480,13 +510,13 @@
                       />
                     </div>
                     <div
-                      class="col"
+                      class="col-4 col-sm-4"
                       data-toggle="tooltip"
                       data-placement="top"
                       title="Hungary"
                     >
                       <img
-                        class="img-fluid rounded-circle text-center w-50 hunpic"
+                        class="img-fluid rounded-circle text-center w-50"
                         src="images/hunicon1.jpg"
                         alt="hunpics"
                       />
@@ -1587,7 +1617,7 @@
       
       <div class="row h-100 w-100 pb-1">
       <div class="col-4 col-sm-4">
-        <div class="list-group" id="list-tab" role="tablist">
+        <div class="list-group edulist" id="list-tab" role="tablist">
           <a class="list-group-item list-group-item-action active  text-dark" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Schools</a>
           <a class="list-group-item list-group-item-action text-dark" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Courses</a>
           <a class="list-group-item list-group-item-action text-dark" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Languages</a>
